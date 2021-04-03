@@ -3,17 +3,6 @@ import numpy as np
 from matplotlib.patches import Polygon
 import matplotlib.pyplot as plt
 
-# %%
-v = np.array([1, 2, 3, 4, 5])
-v
-
-# %%
-m = np.array([[1, 2, 3, 4, 5], [1, 2, 3, 4, 5]])
-m
-
-# %%
-# 矩阵点乘向量将得到一个向量。可以将矩阵看做是原向量的一个函数
-m.dot(v)
 
 # %%
 m1 = np.array([[1, 1], [2, 2]])
