@@ -68,3 +68,24 @@ v3
 # %%
 # 这里y值是负数，因为现在坐标系是B空间的，A空间的[1,0]是在B空间的x轴下面
 renderV(v3)
+
+
+# %%
+v = np.array([0, 1])
+
+
+x = np.cos(30*np.pi/180)
+y = np.sin(30*np.pi/180)
+
+v2 = np.array([x, y])
+
+# x = v[0] + v[1]*np.cos(30*np.pi/180)
+# y =
+
+
+np.array([[0, np.cos(30*np.pi/180)],
+          [0, np.sin(30*np.pi/180)]]).dot(v)
+
+
+# %%
+

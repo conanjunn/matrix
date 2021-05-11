@@ -48,3 +48,10 @@ renderV(tran2)
 mm = m2.dot(m1)
 tran3 = mm.dot(v)
 renderV(tran3)
+
+# %%
+a = np.array([1, 0, 1])
+b = np.array([1, 1, 1])
+# %%
+t = np.cross(a, b)
+t
